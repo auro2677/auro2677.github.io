@@ -1,12 +1,5 @@
-Stretchy Navigation
-=========
+A question paper site which allows you to view and download question papers.
 
-A rounded navigation trigger that stretches on click/tap to reveal the navigation items.
+It also has a facebook comment section so that you can comment what you want.
 
-[Article on CodyHouse](http://codyhouse.co/gem/stretchy-navigation/)
 
-[Demo](http://codyhouse.co/demo/stretchy-navigation/index.html)
-
-Icons: [Nucleo](https://nucleoapp.com/)
- 
-[Terms](http://codyhouse.co/terms/)
