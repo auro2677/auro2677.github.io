@@ -16,12 +16,127 @@
  
 	<link href="login-register.css" rel="stylesheet" />
 	<link rel="stylesheet" href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
-	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 	<script src="jquery/jquery-1.10.2.js" type="text/javascript"></script>
+	 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<script src="bootstrap3/js/bootstrap.js" type="text/javascript"></script>
 	<script src="login-register.js" type="text/javascript"></script>
 	
+<style type="text/css">
+  #myFooter {
+  background-color: #373a48;
+  color:white;
+   position: absolute;
+   bottom:0;
+   width: 100%;
 
+}
+
+#myFooter .footer-copyright{
+  background-color: #383737;
+  padding-top:3px;
+  
+  text-align: center;
+  
+}
+#myFooter .footer-copyright p{
+  margin:10px;
+  color: #ccc;
+}
+#myFooter ul{
+  list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+
+}
+#myFooter h5{
+  font-size: 18px;
+    color: white;
+    font-weight: bold;
+    margin-top: 30px;
+}
+#myFooter a{
+  color:#d2d1d1;
+  text-decoration: none;
+}
+#myFooter a:hover, #myFooter a:focus{
+  text-decoration: none;
+  color:white;
+}
+
+#myFooter .myCols{
+  text-align: center;
+}
+
+#myFooter .social-networks{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 38px;
+}
+#myFooter a:hover, #myFooter a:focus{
+  text-decoration: none;
+  color:white;
+}
+
+#myFooter .myCols{
+  text-align: center;
+}
+
+#myFooter .social-networks{
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 38px;
+}
+#myFooter .social-networks a{
+    font-size: 32px;
+    color: #f9f9f9;
+    padding: 10px;
+    transition: 0.2s;
+}
+#myFooter .social-networks a:hover{
+  text-decoration: none;
+
+}
+
+#myFooter .facebook:hover{
+  color:#0077e2;
+}
+#myFooter .linkedin:hover{
+  color:#0077e2;
+}
+#myFooter .github:hover{
+  color: #9AEEA6;
+}
+#myFooter .google:hover{
+  color:#ef1a1a;
+}
+
+#myFooter .twitter:hover{
+  color: #00aced;
+}
+
+@media screen and (max-width: 767px){
+  #myFooter {
+    text-align: center;
+  }
+}
+
+
+
+/* CSS used for positioning the footers at the bottom of the page. */
+/* You can remove this. */
+
+
+
+
+
+
+#myFooter{
+  flex: 0 0 auto;
+    -webkit-flex: 0 0 auto;
+}
+
+</style>
 
 <style>
 body
@@ -308,6 +423,21 @@ $(document).ready(function(){
     </div>
 
 <div class="fb-comments" data-href="https://auro2677.github.io/index.html" data-width="400px" data-numposts="50"></div>
+
+
+    <footer id="myFooter">
+        
+        <div class="social-networks">
+            <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
+            
+            <a href="https://www.linkedin.com/in/aurobindo-mishra-0996847b/" class="linkedin"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/auro2677" class="github"><i class="fa fa-github"></i></a>
+            <a href="https://www.facebook.com/aurobindo.mishra" class="facebook"><i class="fa fa-facebook"></i></a>
+        </div>
+        <div class="footer-copyright">
+            <p>© 2018 Copyright </p>
+        </div>
+    </footer>
     </div>   
     </div>
 	<!-- main content here -->
@@ -455,6 +585,6 @@ $(document).ready(function(){
     });
 });
 </script>
-<!--blue folder icon used from: http://www.iconarchive.com/show/yosemite-flat-icons-by-dtafalonso/Folder-icon.html. license: https://creativecommons.org/licenses/by-nd/4.0/-->
+<!--blue folder icon used from http://www.iconarchive.com/show/yosemite-flat-icons-by-dtafalonso/Folder-icon.html. license: https://creativecommons.org/licenses/by-nd/4.0/-->
 </body>
 </html>
